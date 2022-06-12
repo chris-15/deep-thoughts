@@ -11,6 +11,7 @@ import Auth from "../utils/auth";
 
 const Profile = (props) => {
   const [addFriend] = useMutation(ADD_FRIEND);
+  
   const { username: userParam } = useParams();
 
   

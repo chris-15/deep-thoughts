@@ -17,9 +17,9 @@ module.exports = {
         //console.log( "token", token)  
         if(req.headers.authorization) {
             token = token 
-               /*  .split('')
+                .split(' ')
                 .pop()
-                .trim(); */
+                .trim();
         }
 
         //if no token, return request object as is 
